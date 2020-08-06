@@ -126,8 +126,12 @@ h1 {
 .carrossel-img {
     border-radius: 50px;
     height: 500px;
-    margin: 4rem 3% 3%;
+    margin: 9rem 3% 3%;
     width: 65%;
+}
+
+.desafio-exp .subtitulo-body {
+    margin-top: 4rem;
 }
 
 .desafio3-btn {
@@ -151,7 +155,7 @@ h1 {
 .img-desafio {
     border: 4px rgb(3, 59, 61) solid;
     border-radius: 100%;
-    margin-top: 50px;
+    margin-top: 10rem;
     width: 24%;
 }
 
@@ -167,6 +171,7 @@ h1 {
 
 #desafio-3dias .subparagrafos-body {
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 
