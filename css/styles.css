@@ -140,6 +140,16 @@ h1 {
     color: white;
 }
 
+/* Desafio dos 3 dias */
+
+.img-desafio {
+    border: 4px rgb(3, 59, 61) solid;
+    border-radius: 100%;
+    margin-top: 50px;
+    width: 24%;
+}
+
+
 /* ------------------ ID MODIFFIERS -------------------- */
 
 #fixed-menu {
