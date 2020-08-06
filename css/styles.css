@@ -178,6 +178,9 @@ h1 {
         background-color: rgb(233, 233, 233);
     }
 
+    /* SUBPARAGRAFOS */
+
+    
     /* Carrossel */
     
     .carrossel-img {
@@ -188,15 +191,19 @@ h1 {
     .desafio3-btn {
         width: 70%;
     }
-
+    
 }
 
 @media all and (max-width: 800px) {
-
+    
     h1 {
         font-size: 4.5rem;
     }
-
+    
+    .subparagrafos-body {
+        font-size: 1.8rem;
+    }
+    
     .subtitulo-topo {
         font-size: 1.6rem;
         padding: 0 10% 15rem;
