@@ -96,6 +96,11 @@ h1 {
 
 /* ID MODIFFIERS */
 
+#fixed-menu {
+    position: fixed;
+    width: 100%;
+}
+
 #title {
     margin-bottom: -10px;
 }
