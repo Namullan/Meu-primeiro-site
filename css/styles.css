@@ -1,0 +1,156 @@
+
+/* HTML ELEMENTS MODIFFIERS */
+
+h1 {
+    color: white;
+    font-family: 'Satisfy', 'Dancing script', sans-serif;
+    font-size: 6rem;
+    display: block;
+}
+
+/* CLASS MODIFFIERS */
+
+.bg-topo {
+    background: url("fundo.jpg");
+    background-size: cover;
+    color: white;
+}
+.centralizado {
+    text-align: center;
+}
+.navbar {
+    padding: 0 5%;
+}
+.logo-navbar {
+    width: 2rem;
+}
+.logo-top {
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 15%;
+    margin: 8rem 0 6rem;
+    padding: 1rem;
+    width: 6%;
+}
+.nav-link {
+    color: rgb(238, 238, 238);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+.nav-link:hover {
+    background-color: rgb(160, 160, 160);
+    color: white;
+}
+.subtitulo-topo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 15rem;
+}
+.video-intro-div {
+    padding-top: 5rem;
+    height: 500px;
+}
+
+.destaque {
+    background-color: rgb(179, 243, 243);
+}
+.destaque-light {
+    background-color: rgb(233, 233, 233);
+}
+
+.estudar-nao-titulo-video {
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.float-left-2col {
+    float: left;
+    width: 45%;
+}
+.vertical-align {
+    margin: 4rem 0;
+}
+.subparagrafos-hr {
+    border: 1px solid rgb(4, 71, 73);
+    height: 0;
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 25%;
+}
+.subtitulo-body {
+    color: rgb(4, 71, 73);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.subparagrafos-body {
+    color: rgb(4, 71, 73);
+    line-height: 2;
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* ID MODIFFIERS */
+
+#title {
+    margin-bottom: -10px;
+}
+#hr-topo {
+    border-top: 3px rgb(255, 255, 255) solid;
+    width: 15%;
+    margin: 15px auto 30px;
+}
+
+/* RESPONSIVE */
+
+@media all and (max-width: 1200px) {
+    
+    .logo-top {
+        width: 10%;
+    }
+
+    .float-left-2col {
+        clear: both;
+        padding: 2% 10%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .subparagrafos-hr {
+        margin: 1rem auto;
+    }
+
+    .subparagrafos-body {
+        text-align: center;
+    }
+
+    .intro-video {
+        height: 350px;
+    }
+
+}
+
+@media all and (max-width: 800px) {
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    .subtitulo-topo {
+        font-size: 1.6rem;
+        padding: 0 10% 15rem;
+    }
+
+    .logo-top {
+        padding: 0;
+        width: 0;
+    }
+
+    .intro-video {
+        height: 200px;
+    }
+}
