@@ -187,6 +187,10 @@ h1 {
 
 /* O que te impede de estudar? */
 
+.coluna-erros-icon.erros-bg {
+    padding-bottom: 20px;
+}
+
 .coluna-erros-icon {
     float: left;
     width: 25%;
@@ -199,6 +203,8 @@ h1 {
 
 .erros-bg {
     background-color: rgb(238, 238, 238);
+    height: fit-content;
+    padding-bottom: 1050px;
 }
 
 .erros-icon {
@@ -256,6 +262,29 @@ h1 {
     visibility: hidden;
 }
 
+/* 4 D's - Texto explicativo */
+
+.div-4ds {
+    float: left;
+    width: 50%;
+}
+
+.img-4ds {
+    width: 90%;
+}
+
+.texto-explicativo-4ds-div {
+    text-align: left;
+    padding: 30px 6% 0 3%;
+}
+.div-4ds-hr {
+    border: 1px solid rgb(4, 71, 73);
+    height: 0;
+    margin-left: 0;
+    margin-top: -3rem;
+    width: 15%;
+}
+
 /* ------------------ ID MODIFFIERS -------------------- */
 
 #fixed-menu {
@@ -279,6 +308,27 @@ h1 {
 }
 
 /* --------------------- RESPONSIVE ---------------------- */
+
+@media all and (max-width: 1500px) {
+
+    /* 4 D's cards */
+
+    .erros-popup-card {
+        right: 23%;
+        width: 54%;
+    }
+
+    .erros-bg {
+        padding-bottom: 850px;
+    }
+
+    /* 4 D's texto explicativo */
+
+    .div-4ds .subparagrafos-body {
+        font-size: 1.3rem;
+    }
+
+}
 
 @media all and (max-width: 1200px) {
 
@@ -353,6 +403,7 @@ h1 {
     .erros-popup-card {
         visibility: hidden;
     }
+
 }
 
 @media all and (max-width: 800px) {
