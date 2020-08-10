@@ -138,6 +138,7 @@ h1 {
     border: 3px rgb(3, 59, 61) solid;
     border-radius: 20px;
     color: rgb(3, 59, 61);
+    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     margin: 10px auto 4rem;
@@ -257,7 +258,6 @@ h1 {
     .desafio3-btn {
         width: 70%;
     }
-    
 }
 
 @media all and (max-width: 800px) {
