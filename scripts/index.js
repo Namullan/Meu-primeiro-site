@@ -1,4 +1,7 @@
+// Qual o seu nome?
 
+var seuNome = prompt("Qual o seu nome?");
+$(".welcome-sbt").html("Seja Bem Vindo, <span class='seuNome'><em>" + seuNome + "!</em></span>");
 
 // Alerta dos botões - conteúdo em desenvolvimento
 

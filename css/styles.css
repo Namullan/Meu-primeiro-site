@@ -76,11 +76,6 @@ h1 {
     padding-bottom: 80px;
 }
 
-.estudar-nao-titulo-video {
-    margin-bottom: 2rem;
-    text-decoration: underline;
-}
-
 .float-left-2col {
     float: left;
     width: 45%;
@@ -110,6 +105,10 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     text-align: justify;
+}
+
+.seuNome {
+    text-decoration: underline;
 }
 
 /* Carrossel - Desafio dos 3 dias */
