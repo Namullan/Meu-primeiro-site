@@ -9,3 +9,46 @@ $(".desafio3-btn").click(function() {
     alert("Este conteúdo ainda está em desenvolvimento.")
 });
 
+// Pop-up cards
+
+$(".erros-popup-card").fadeOut().delay(10).queue(function() {
+    $(".erros-popup-card").removeClass("invisible");
+    $(".erros-popup-card").dequeue();
+});
+
+// Dúvidas
+$(".duvidas-icon").click(function() {
+    $(".duvidas-card").fadeIn();
+});
+
+$(".duvidas-btn").click(function() {
+    $(".duvidas-card").fadeOut();
+});
+
+// Desorganização
+$(".desorganizacao-icon").click(function() {
+    $(".desorganizacao-card").fadeIn();
+});
+
+$(".desorganizacao-btn").click(function() {
+    $(".desorganizacao-card").fadeOut();
+});
+
+// Desinteresse
+$(".desinteresse-icon").click(function() {
+    $(".desinteresse-card").fadeIn();
+});
+
+$(".desinteresse-btn").click(function() {
+    $(".desinteresse-card").fadeOut();
+});
+
+// Desmotivação
+$(".desmotivacao-icon").click(function() {
+    $(".desmotivacao-card").fadeIn();
+});
+
+$(".desmotivacao-btn").click(function() {
+    $(".desmotivacao-card").fadeOut();
+});
+

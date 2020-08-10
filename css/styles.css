@@ -204,6 +204,7 @@ h1 {
 .erros-icon {
     background-color: rgba(255, 255, 255, 0.349);
     border-radius: 100%;
+    cursor: pointer;
     margin-top: 3rem;
     padding: 2rem;
     width: 50%;
@@ -218,6 +219,41 @@ h1 {
     font-weight: bold;
     margin: 1rem auto 0;
     padding-bottom: 4rem;
+}
+
+/* ERROS: Pop-up cards */
+
+.erros-popup-card {
+    background-color: white;
+    border: 15px rgba(120, 233, 224, 0.24) solid;
+    padding: 1% 4%;
+    position: absolute;
+    right: 35%;
+    width: 30%;
+}
+.erros-popup-card .subparagrafos-hr {
+    margin: 1rem auto 2rem;
+}
+.erros-popup-card .subtitulo-icons {
+    margin-bottom: -70px;
+}
+.popup-card-text {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+.popup-card-btn {
+    cursor: pointer;
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+}
+
+.invisible {
+    visibility: hidden;
 }
 
 /* ------------------ ID MODIFFIERS -------------------- */
@@ -283,9 +319,6 @@ h1 {
     .boas-vindas-bg {
         background-color: rgb(233, 233, 233);
     }
-
-    /* SUBPARAGRAFOS */
-
     
     /* Carrossel */
 
@@ -307,6 +340,40 @@ h1 {
 
     .img-desafio {
         width: 45%;
+    }
+
+    /* Os 4 D's */
+
+    .coluna-erros-icon {
+        width: 100%;
+    }
+
+    /* Os 4 D's - cards */
+
+    .erros-popup-card {
+        padding: 1% 6%;
+        text-align: justify;
+        right: 5%;
+        width: 90%;
+    }
+    .erros-popup-card .subparagrafos-hr {
+        visibility: hidden;
+    }
+    .popup-card-text {
+        font-size: 1.1rem;
+    }
+
+    .duvidas-card {
+        top: 505%;
+    }
+    .desorganizacao-card {
+        top: 560%;
+    }
+    .desinteresse-card {
+        top: 615%;
+    }
+    .desmotivacao-card {
+        top: 670%;
     }
 
 }
