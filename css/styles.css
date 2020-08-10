@@ -111,6 +111,18 @@ h1 {
     text-decoration: underline;
 }
 
+/* Back to top button */
+
+.back-to-top-btn {
+    bottom: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+    right: 35px;
+    position: fixed;
+    width: 35px;
+    z-index: 10;
+}
+
 /* Carrossel - Desafio dos 3 dias */
 
 .desafio-carrossel {
@@ -272,6 +284,7 @@ h1 {
 }
 
 .img-4ds {
+    border-radius: 40px;
     width: 90%;
 }
 
@@ -288,6 +301,10 @@ h1 {
 }
 
 /* ------------------ ID MODIFFIERS -------------------- */
+
+#navbarNav {
+    padding-right: 5%;
+}
 
 #fixed-menu {
     position: fixed;
