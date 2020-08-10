@@ -115,6 +115,7 @@ h1 {
 
 .desafio-carrossel {
     float: left;
+    margin-bottom: 4rem;
     width: 67%;
 }
 
@@ -133,6 +134,10 @@ h1 {
     background-color: rgba(16, 172, 159, 0.836);
     border-radius: 100%;
     padding: 2px;
+}
+
+.sr-only {
+    color: rgba(9, 116, 107, 0.884);
 }
 
 .desafio-exp .subtitulo-body {
@@ -162,7 +167,7 @@ h1 {
     border: 4px rgb(3, 59, 61) solid;
     border-radius: 100%;
     margin-top: 10rem;
-    width: 24%;
+    width: 30%;
 }
 
 #desafio-3dias .subparagrafos-hr {
@@ -180,6 +185,40 @@ h1 {
     margin-bottom: 5rem;
 }
 
+/* O que te impede de estudar? */
+
+.coluna-erros-icon {
+    float: left;
+    width: 25%;
+}
+
+#erros-est-sect .subparagrafos-hr {
+    margin: 1.5rem auto 0;
+    width: 18%;
+}
+
+.erros-bg {
+    background-color: rgb(238, 238, 238);
+}
+
+.erros-icon {
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 100%;
+    margin-top: 3rem;
+    padding: 2rem;
+    width: 50%;
+}
+.erros-icon:hover {
+    background-color: rgba(120, 233, 224, 0.24);
+}
+.subtitulo-icons {
+    color: rgb(6, 40, 41);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin: 1rem auto 0;
+    padding-bottom: 4rem;
+}
 
 /* ------------------ ID MODIFFIERS -------------------- */
 
@@ -263,6 +302,13 @@ h1 {
     .desafio3-btn {
         width: 70%;
     }
+
+    /* Desafo dos 3 dias */
+
+    .img-desafio {
+        width: 45%;
+    }
+
 }
 
 @media all and (max-width: 800px) {
