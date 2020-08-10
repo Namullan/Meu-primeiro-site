@@ -18,6 +18,7 @@ $(".erros-popup-card").fadeOut().delay(10).queue(function() {
 
 // Dúvidas
 $(".duvidas-icon").click(function() {
+    $(".erros-popup-card").fadeOut();
     $(".duvidas-card").fadeIn();
 });
 
@@ -27,6 +28,7 @@ $(".duvidas-btn").click(function() {
 
 // Desorganização
 $(".desorganizacao-icon").click(function() {
+    $(".erros-popup-card").fadeOut();
     $(".desorganizacao-card").fadeIn();
 });
 
@@ -36,6 +38,7 @@ $(".desorganizacao-btn").click(function() {
 
 // Desinteresse
 $(".desinteresse-icon").click(function() {
+    $(".erros-popup-card").fadeOut();
     $(".desinteresse-card").fadeIn();
 });
 
@@ -45,6 +48,7 @@ $(".desinteresse-btn").click(function() {
 
 // Desmotivação
 $(".desmotivacao-icon").click(function() {
+    $(".erros-popup-card").fadeOut();
     $(".desmotivacao-card").fadeIn();
 });
 

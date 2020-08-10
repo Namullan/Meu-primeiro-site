@@ -345,37 +345,14 @@ h1 {
     /* Os 4 D's */
 
     .coluna-erros-icon {
-        width: 100%;
+        width: 50%;
     }
 
     /* Os 4 D's - cards */
 
     .erros-popup-card {
-        padding: 1% 6%;
-        text-align: justify;
-        right: 5%;
-        width: 90%;
-    }
-    .erros-popup-card .subparagrafos-hr {
         visibility: hidden;
     }
-    .popup-card-text {
-        font-size: 1.1rem;
-    }
-
-    .duvidas-card {
-        top: 505%;
-    }
-    .desorganizacao-card {
-        top: 560%;
-    }
-    .desinteresse-card {
-        top: 615%;
-    }
-    .desmotivacao-card {
-        top: 670%;
-    }
-
 }
 
 @media all and (max-width: 800px) {
@@ -401,4 +378,11 @@ h1 {
     .intro-video {
         height: 250px;
     }
+
+    /* 4 D's */
+
+    .coluna-erros-icon {
+        width: 100%;
+    }
+
 }
