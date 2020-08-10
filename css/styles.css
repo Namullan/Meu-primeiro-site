@@ -129,6 +129,12 @@ h1 {
     width: 65%;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(16, 172, 159, 0.836);
+    border-radius: 100%;
+    padding: 2px;
+}
+
 .desafio-exp .subtitulo-body {
     margin-top: 4rem;
 }
