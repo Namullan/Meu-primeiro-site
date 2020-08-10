@@ -233,9 +233,11 @@ h1 {
     background-color: white;
     border: 15px rgba(120, 233, 224, 0.24) solid;
     padding: 1% 4%;
-    position: absolute;
+    position: fixed;
     right: 35%;
+    top: 15%;
     width: 30%;
+    z-index: 10;
 }
 .erros-popup-card .subparagrafos-hr {
     margin: 1rem auto 2rem;
@@ -401,7 +403,31 @@ h1 {
     /* Os 4 D's - cards */
 
     .erros-popup-card {
-        visibility: hidden;
+        border: 6px rgba(120, 233, 224, 0.24) solid;
+        top: 5%;
+        right: 5%;
+        width: 90%;
+    }
+
+    .popup-card-text {
+        font-size: 1rem;
+    }
+
+    /* 4 D's - Texto explicativo */
+
+    .div-4ds {
+        background-color: rgb(238, 238, 238);
+        width: 100%;
+    }
+
+    .texto-explicativo-4ds-div {
+        padding: 30px;
+    }
+    .div-4ds-hr {
+        width: 50%;
+    }
+    .div-4ds .subparagrafos-body {
+        text-align: justify;
     }
 
 }
