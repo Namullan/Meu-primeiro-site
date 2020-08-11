@@ -9,7 +9,14 @@ else if (seuNome == null) {
     console.log("null");
 }
 else {
-    $(".welcome-sbt").html("Seja Bem Vindo(a), <span class='seuNome'><em>" + seuNome + "!</em></span>");
+
+    var firstChar = seuNome[0];
+    var firstCharUp = firstChar.toUpperCase();
+
+    var restName = seuNome.slice(1, seuNome.length);
+    var restNameLow = restName.toLowerCase();
+
+    $(".welcome-sbt").html("Seja Bem Vindo(a), <span class='seuNome'><em>" + firstCharUp + restNameLow + "!</em></span>");
 }
 
 // -------- Alerta dos botões - conteúdo em desenvolvimento -----
