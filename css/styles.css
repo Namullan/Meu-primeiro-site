@@ -279,6 +279,16 @@ h1 {
     visibility: hidden;
 }
 
+.escurecer-fundo {
+    background-color: rgba(0, 0, 0, 0.801);
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
 /* 4 D's - Texto explicativo */
 
 .div-4ds {
@@ -477,7 +487,7 @@ h1 {
 
     .erros-popup-card {
         border: 6px rgba(120, 233, 224, 0.24) solid;
-        top: 5%;
+        top: 12%;
         right: 5%;
         width: 90%;
     }
