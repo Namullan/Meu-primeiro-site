@@ -34,6 +34,9 @@ if(seuNome === "") {
 else if (seuNome == null) {
     console.log("null");
 }
+else if (seuNome.length >= 13) {
+    console.log("Name too long");
+}
 else {
 
     var firstChar = seuNome[0];
