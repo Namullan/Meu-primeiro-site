@@ -354,7 +354,7 @@ h1 {
     text-decoration: none;
 }
 
-/* Nosso objetivo - UN logo */
+/* Nosso objetivo - UN video */
 
 .un-ods-div {
     float: left;
@@ -364,6 +364,29 @@ h1 {
 .un-ods-video {
     height: 550px;
     margin: 3rem auto;
+}
+
+/* Mudando o pensamento das escolas */
+
+.educacao-moderna-div {
+    float: left;
+    width: 50%;
+}
+
+.video-educacao-moderna {
+    height: 540px;
+    margin-top: 5rem;
+}
+
+.educacao-moderna-div .subtitulo-body {
+    margin-top: 5rem;
+    text-align: left;
+}
+.educacao-moderna-div .subparagrafos-hr {
+    width: 50%;
+}
+.educacao-moderna-div .subparagrafos-body {
+    padding: 1rem 3rem 0 0;
 }
 
 /* ------------------ ID MODIFFIERS -------------------- */
@@ -396,6 +419,12 @@ h1 {
 
 @media all and (max-width: 1500px) {
 
+    /* Subparagrafos-body */
+
+    .subparagrafos-body {
+        font-size: 1.2rem;
+    }
+
     /* 4 D's cards */
 
     .erros-popup-card {
@@ -409,8 +438,12 @@ h1 {
 
     /* 4 D's texto explicativo */
 
-    .div-4ds .subparagrafos-body {
-        font-size: 1.3rem;
+    .img-4ds {
+        margin-top: 1rem;
+    }
+
+    .texto-explicativo-4ds-div {
+        padding-top: 0;
     }
 
 }
@@ -530,6 +563,26 @@ h1 {
         height: 460px;
     }
 
+    /* Por uma educação mais moderna */
+
+    .educacao-moderna-div {
+        width: 100%;
+    }
+
+    .video-educacao-moderna {
+        height: 460px;
+    }
+
+    .educacao-moderna-div-texto {
+        padding: 3rem;
+    }
+    .educacao-moderna-div .subparagrafos-hr {
+        margin: auto auto auto 0;
+    }
+    .educacao-moderna-div .subparagrafos-body {
+        text-align: justify;
+    }
+
 }
 
 @media all and (max-width: 800px) {
@@ -565,6 +618,12 @@ h1 {
     /* ODS vídeo - ONU */
 
     .un-ods-video {
+        height: 330px;
+    }
+
+    /* por uma educação moderna */
+
+    .video-educacao-moderna {
         height: 330px;
     }
 
