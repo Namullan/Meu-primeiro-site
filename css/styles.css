@@ -696,13 +696,7 @@ footer {
     }
 
     .about-me-img {
-        width: 60%;
-    }
-    
-    /* Sobre Mim */
-    
-    #sobre-mim-sect {
-        height: 800px;
+        width: 38%;
     }
     
     .about-me-div-txt, .about-me-div-img {
@@ -711,15 +705,12 @@ footer {
         width: 100%;
     }
     
-    .about-me-img {
-        width: 20%;
-    }
-    
     #sobre-mim-sect .subtitulo-body {
         text-align: center;
     }
     #sobre-mim-sect .subparagrafos-hr {
         margin: 1rem auto;
+        width: 50%;
     }
     #sobre-mim-sect .subparagrafos-body {
         margin: 0;
@@ -774,7 +765,11 @@ footer {
     /* Sobre Mim */
 
     #sobre-mim-sect {
-        height: 1050px;
+        height: 1190px;
+    }
+
+    .about-me-img {
+        width: 60%;
     }
 
 }

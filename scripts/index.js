@@ -22,7 +22,7 @@ function newMindIn () {
     });
 }
 
-newMindOut();
+newMindIn();
 
 // ---------------- Qual o seu nome? ------------------------
 
