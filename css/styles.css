@@ -440,6 +440,10 @@ h1 {
     padding-right: 4rem;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 /* FOOTER */
 
 footer {
@@ -498,7 +502,7 @@ footer {
 #sobre-mim-sect {
     background-color: rgba(165, 230, 224, 0.308);
     margin-top: 60px;
-    padding-bottom: 550px;
+    padding-bottom: 600px;
     padding-top: 30px;
     width: 100%;
 }
@@ -691,7 +695,7 @@ footer {
     /* Sobre Mim */
     
     #sobre-mim-sect {
-        height: 960px;
+        height: 1000px;
         margin-top: 3rem;
     }
 
@@ -765,7 +769,7 @@ footer {
     /* Sobre Mim */
 
     #sobre-mim-sect {
-        height: 1190px;
+        height: 1220px;
     }
 
     .about-me-img {
@@ -779,7 +783,7 @@ footer {
     /* Sobre Mim */
 
     #sobre-mim-sect {
-        height: 1400px;
+        height: 1440px;
     }
 
 }
