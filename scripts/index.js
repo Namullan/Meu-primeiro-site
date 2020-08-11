@@ -1,3 +1,29 @@
+// H1 changing
+
+function newMindOut () {
+    $("h1").fadeOut().delay(1).queue(function() {
+        $("h1").text("Creativity");
+        $("h1").dequeue();
+    });
+    $("h1").fadeIn().delay(3000).queue(function () {
+        newMindIn();
+        $("h1").dequeue();
+    });
+}
+
+function newMindIn () {
+    $("h1").fadeOut().delay(1).queue(function() {
+        $("h1").text("New Mind");
+        $("h1").dequeue();
+    });
+    $("h1").fadeIn().delay(3000).queue(function () {
+        newMindOut();
+        $("h1").dequeue();
+    });
+}
+
+newMindOut();
+
 // ---------------- Qual o seu nome? ------------------------
 
 var seuNome = prompt("Qual o seu primeiro nome?");

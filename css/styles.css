@@ -39,6 +39,10 @@ h1 {
 
 /* ------------------- CLASS MODIFFIERS --------------------- */
 
+.div-title-top {
+    height: 120px;
+}
+
 .bg-topo {
     background: url("fundo.jpg");
     background-size: cover;
