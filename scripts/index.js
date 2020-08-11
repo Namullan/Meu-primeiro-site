@@ -5,6 +5,9 @@ var seuNome = prompt("Qual o seu primeiro nome?");
 if(seuNome === "") {
     console.log("Empty name");
 }
+else if (seuNome == null) {
+    console.log("null");
+}
 else {
     $(".welcome-sbt").html("Seja Bem Vindo(a), <span class='seuNome'><em>" + seuNome + "!</em></span>");
 }
@@ -91,6 +94,6 @@ function scrollFunction() {
 window.onscroll = function() {scrollFunction()};
 
 mybutton.click(function() {
-    $("html, body").animate({scrollTop: 0}, 500);
+    $("html, body").animate({scrollTop: 0}, 0);
 });
 

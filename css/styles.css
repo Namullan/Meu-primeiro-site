@@ -117,10 +117,14 @@ h1 {
     bottom: 35px;
     border-radius: 100%;
     cursor: pointer;
-    right: 35px;
+    opacity: 0.5;
     position: fixed;
+    right: 35px;
     width: 35px;
     z-index: 10;
+}
+.back-to-top-btn:hover {
+    opacity: 0.8;
 }
 
 /* Carrossel - Desafio dos 3 dias */
@@ -398,9 +402,37 @@ h1 {
 
 /* Sobre mim */
 
+.about-me-bg {
+    height: fit-content;
+}
+
+.about-me-div-img {
+    float: left;
+    width: 35%;
+}
+.about-me-div-txt {
+    float: left;
+    width: 65%;
+}
+
+.about-me-img {
+    border: 5px solid rgb(3, 48, 49);
+    border-radius: 100%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    width: 60%;
+}
+
+#sobre-mim-sect .subtitulo-body {
+    margin-top: 2rem;
+    text-align: left;
+}
 #sobre-mim-sect .subparagrafos-hr {
-    margin: 1rem auto;
+    margin: 1rem auto 1rem 0;
     width: 7%;
+}
+#sobre-mim-sect .subparagrafos-body {
+    padding-right: 4rem;
 }
 
 /* ------------------ ID MODIFFIERS -------------------- */
@@ -432,6 +464,7 @@ h1 {
 #sobre-mim-sect {
     background-color: rgba(165, 230, 224, 0.308);
     margin-top: 60px;
+    padding-bottom: 550px;
     padding-top: 30px;
     width: 100%;
 }
@@ -471,6 +504,34 @@ h1 {
 
     .educacao-moderna-hr-top {
         width: 15%;
+    }
+
+    /* Sobre Mim */
+
+    #sobre-mim-sect {
+        height: 800px;
+    }
+
+    .about-me-div-txt, .about-me-div-img {
+        padding: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+
+    .about-me-img {
+        width: 20%;
+    }
+
+    #sobre-mim-sect .subtitulo-body {
+        text-align: center;
+    }
+    #sobre-mim-sect .subparagrafos-hr {
+        margin: 1rem auto;
+    }
+    #sobre-mim-sect .subparagrafos-body {
+        margin: 0;
+        padding: 1rem;
+        font-size: 1.2rem;
     }
 
 }
@@ -615,6 +676,12 @@ h1 {
         text-align: justify;
     }
 
+    /* Sobre Mim */
+
+    #sobre-mim-sect {
+        height: 920px;
+    }
+
 }
 
 @media all and (max-width: 800px) {
@@ -653,10 +720,38 @@ h1 {
         height: 330px;
     }
 
-    /* por uma educação moderna */
+    /* Por uma educação moderna */
 
     .video-educacao-moderna {
         height: 330px;
+    }
+
+    /* Sobre Mim */
+
+    #sobre-mim-sect {
+        height: 1000px;
+    }
+
+}
+
+@media all and (max-width: 450px) {
+
+    /* Sobre Mim */
+
+    #sobre-mim-sect {
+        height: 1280px;
+    }
+
+}
+
+@media all and (max-width: 330px) {
+
+    /* Sobre Mim */
+
+    #sobre-mim-sect .subparagrafos-body {
+        margin: 0;
+        padding: 1rem;
+        font-size: 1.1rem;
     }
 
 }
