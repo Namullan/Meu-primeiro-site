@@ -368,6 +368,13 @@ h1 {
 
 /* Mudando o pensamento das escolas */
 
+.educacao-moderna-hr-top {
+    border-top: 1rem dotted rgba(167, 238, 240, 0.329);
+    height: 0;
+    margin: 1rem auto;
+    width: 7%
+}
+
 .educacao-moderna-div {
     float: left;
     width: 50%;
@@ -387,6 +394,13 @@ h1 {
 }
 .educacao-moderna-div .subparagrafos-body {
     padding: 1rem 3rem 0 0;
+}
+
+/* Sobre mim */
+
+#sobre-mim-sect .subparagrafos-hr {
+    margin: 1rem auto;
+    width: 7%;
 }
 
 /* ------------------ ID MODIFFIERS -------------------- */
@@ -412,6 +426,13 @@ h1 {
 
 #desafio-3dias {
     height: fit-content;
+    width: 100%;
+}
+
+#sobre-mim-sect {
+    background-color: rgba(165, 230, 224, 0.308);
+    margin-top: 60px;
+    padding-top: 30px;
     width: 100%;
 }
 
@@ -444,6 +465,12 @@ h1 {
 
     .texto-explicativo-4ds-div {
         padding-top: 0;
+    }
+
+    /* Educação moderna */
+
+    .educacao-moderna-hr-top {
+        width: 15%;
     }
 
 }
@@ -565,6 +592,10 @@ h1 {
 
     /* Por uma educação mais moderna */
 
+    .educacao-moderna-hr-top {
+        width: 20%;
+    }
+
     .educacao-moderna-div {
         width: 100%;
     }
@@ -574,12 +605,13 @@ h1 {
     }
 
     .educacao-moderna-div-texto {
-        padding: 3rem;
+        padding: 1.8rem;
     }
     .educacao-moderna-div .subparagrafos-hr {
-        margin: auto auto auto 0;
+        margin: auto 0 auto 0;
     }
     .educacao-moderna-div .subparagrafos-body {
+        padding: 0;
         text-align: justify;
     }
 
