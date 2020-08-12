@@ -231,6 +231,7 @@ h1 {
 .erros-icon {
     background-color: rgba(255, 255, 255, 0.349);
     border-radius: 100%;
+    box-shadow: 7px 7px 10px black;
     cursor: pointer;
     margin-top: 3rem;
     padding: 2rem;

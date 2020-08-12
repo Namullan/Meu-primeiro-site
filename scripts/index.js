@@ -31,6 +31,9 @@ var seuNome = prompt("Qual o seu primeiro nome?");
 if(seuNome === "") {
     console.log("Empty name");
 }
+else if (seuNome === "the polyglot tree") {
+    $(".welcome-sbt").html("안녕하세요, 나무 선생님!");
+}
 else if (seuNome == null) {
     console.log("null");
 }
